@@ -1,0 +1,26 @@
+ : use the INSERT INTO command to insert/create data into database
+ : use SELECT statements to select/read data from a database table
+    : use WHERE clause to select data from specific table rows
+    : use comparison operators , < or > to select specific data
+ : use UPDATE statements to update data within a database table
+ : use DELETE statements to delete data from a database table
+
+:::  goal perfoem Create, Read, Update & Delete
+
+  ::  INSERT INTO
+INSERT INTO cats (name, age, breed) VALUES ('Maru', 3, 'Scottish Fold');
+
+  ::  SELECT FROM
+SELECT [names of columns we are going to select] FROM [table we are selecting from];
+
+ :: Selecting Based on Conditions: The WHERE Clause
+SELECT * FROM [table name] WHERE [column name] = [some value];
+
+  :: Updating Data
+UPDATE [table name] SET [column name] = [new value] WHERE [column name] = [value];
+
+  :: Deleting Data
+DELETE FROM [table name] WHERE [column name] = [value];
+
+
+
